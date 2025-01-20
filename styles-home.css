@@ -1,0 +1,28 @@
+/* styles-home.css */
+.landing {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.landing h1 {
+    font-size: 3rem;
+    color: #000000;
+}
+
+.landing p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #f83395;
+    color: #fff;
+    padding: 12px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #f86b33;
+}

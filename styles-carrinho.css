@@ -1,0 +1,42 @@
+/* styles-carrinho.css */
+.carrinho {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f0f0f0;
+}
+
+table td {
+    background-color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.carrinho .btn {
+    background-color: #f83395;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.carrinho .btn:hover {
+    background-color: #f86b33;
+}

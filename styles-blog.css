@@ -1,0 +1,33 @@
+/* styles-blog.css */
+.blog {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.blog .post {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.blog h3 {
+    font-size: 1.5rem;
+}
+
+.blog p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.blog .btn {
+    background-color: #f83395;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.blog .btn:hover {
+    background-color: #f86b33;
+}

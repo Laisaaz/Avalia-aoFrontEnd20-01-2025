@@ -1,0 +1,35 @@
+/* styles-novidades.css */
+.novidades {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.novidade {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.novidade h3 {
+    font-size: 1.5rem;
+}
+
+.novidade p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.novidade .btn {
+    background-color: #f83395;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.novidade .btn:hover {
+    background-color: #f86b33;
+}

@@ -1,0 +1,36 @@
+/* styles-favoritos.css */
+.favoritos {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.favorito {
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.favorito img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.favorito p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.favorito .btn {
+    background-color: #f83395;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.favorito .btn:hover {
+    background-color: #f86b33;
+}

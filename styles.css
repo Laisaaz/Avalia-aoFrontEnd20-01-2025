@@ -1,0 +1,110 @@
+/* Estilo global */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ff69b4, #ff7f50);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo do header */
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(235, 72, 153, 0.9);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute; /* Coloca o logo no topo e centraliza com o menu */
+    left: 20px; /* Ajuste o valor conforme necessário */
+}
+
+.menu {
+    display: flex;
+    justify-content: center; /* Centraliza os itens do menu */
+    align-items: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #f7cfc2;
+}
+
+/* Landing Section */
+.landing {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.landing h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.landing p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: rgba(235, 72, 153, 0.9);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #f86b33;
+    color: rgb(0, 0, 0);
+}
+
+/* Footer */
+footer {
+    background: rgba(255, 105, 180, 0.9);
+    padding: 10px 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
